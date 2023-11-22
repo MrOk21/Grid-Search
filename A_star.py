@@ -23,7 +23,7 @@ color_frontier = "gray"
 
 # Dichiarazione degli insiemi per i punti
 visited_nodes_A_star = set()  # Nodi visitati da A*
-frontier_nodes = set()  # Nodi nella frontiera (solo per A*)
+frontier_nodes = set()  # Nodi nella frontiera
 
 # Funzione per disegnare la griglia
 def draw_grid(rows, cols):
@@ -148,7 +148,7 @@ draw_grid(rows, cols)
 draw_point(start_point, "green")
 draw_point(end_point, "red")
 
-# Eseguo A* e ottiengo il percorso
+# Eseguo A* e ottengo il percorso
 path_a_star = a_star(grid, start_point, end_point)
 print("Percorso A*:")
 for step, point in enumerate(path_a_star):
