@@ -161,7 +161,7 @@ draw_grid(rows, cols)
 draw_point(start_point, "green")
 draw_point(end_point, "red")
 
-# Eseguo Theta* e ottiengo il percorso
+# Eseguo Theta* e ottengo il percorso
 path_theta_star = theta_star(grid, start_point, end_point)
 print("Percorso Theta*:")
 for step, point in enumerate(path_theta_star):
