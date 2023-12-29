@@ -4,7 +4,7 @@ This project consist in a grid search applying two different algorithms: A* and 
 Within the repository there are two files that can be launched through the terminal on linux with the following commands: 
 - python3 main.py
 
-After launching them, an animation will appear showing the execution of the algorithms.
+After launching it, an animation will appear showing the execution of the algorithms.
 In animation you can see:
 - A*:
   - Start Point = Red
