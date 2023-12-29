@@ -10,8 +10,7 @@ def a_star_process():
     root = tk.Tk()
     root.title("A* Algorithm")
     root.geometry('750x500+0+0')
-    
-    # Creo una canvas per la Turtle
+
     turtle_canvas = ScrolledCanvas(root)
     turtle_canvas.pack(fill=tk.BOTH, expand=True)
     
@@ -25,11 +24,10 @@ def theta_star_process():
     root.title("Theta* Algorithm")
     root.geometry('750x500+1000+0')
     
-    # Creo una canvas per la Turtle
     turtle_canvas_theta = ScrolledCanvas(root)
     turtle_canvas_theta.pack(fill=tk.BOTH, expand=True)
 
-    # Esegu0 la funzione Theta* all'interno della finestra Tkinter
+    # Eseguo l'algoritmo Theta* all'interno della finestra Tkinter
     Theta_star.theta_star(root, turtle_canvas_theta)
 
 def main(): 
